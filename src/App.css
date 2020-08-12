@@ -1,0 +1,85 @@
+body{
+  background-color: #FFF9ED;
+  max-width: 1260px;
+}
+
+.Banner {
+  width: 1260px;
+}
+
+h6{
+  text-align: center;
+  color:#184D47;
+  font-size: 25px;
+  font-weight: 250;
+}
+.Produtos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Bloco{
+  margin: 15px;
+}
+.Bloco:hover{
+  opacity: 0.4;
+  width: 310px;
+  height: 270px;
+}
+
+.Depoimentos p{
+  color: #C29270;
+  font-size: 16px;
+  text-align: center;
+}
+.CaixaDepoimentos{
+  width: 1260px;
+  height: 320px;
+  background: #E77B3A;
+
+  
+
+}
+.Box{
+  width: 700px;
+  padding: 30px;
+  margin:0 auto;
+  text-align: center;
+  color : white;
+
+}
+.CaixaDepoimentos p{  
+  color : white;
+  font-style: italic;
+}
+.CaixaDepoimentos h5{
+  color : #184D47;
+}
+.RedesSociais{
+  margin:20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.RedesSociais img{
+  margin: 10px;
+}
+
+footer{
+  position: relative;
+top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+}
+
+footer div {
+  margin: 30px;
+  width: 800px;
+  color: #C29270
+}
+footer h5{
+  color: #E77B3A;
+}
